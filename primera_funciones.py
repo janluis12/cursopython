@@ -59,6 +59,8 @@
 #print(midiccionario.values())# con este metodo podremos saber lo que contienen dentro las llaves.
 #print(midiccionario)
 
-mi_tupla = ["santo domingo","chile","francia"] #aqui declaramos una tupla que seran utilizadas como elementos para nuestras claves de nuestro diccionario
-mi_diccionario = {mi_tupla[0]:"republica dominicana",mi_tupla[1]:"region metropolitana"} #aqui declaramos nuestro diccionario junto con nuestra tupla, iniciando en nuestro elemento 0, para asi entonces a nuestra llave agregar su elemento
+mi_lista = ["santo domingo","chile","francia"] #aqui declaramos una tupla que seran utilizadas como elementos para nuestras claves de nuestro diccionario
+mi_diccionario = {mi_lista[0]:"republica dominicana",mi_lista[1]:"region metropolitana"} #aqui declaramos nuestro diccionario junto con nuestra tupla, iniciando en nuestro elemento 0, para asi entonces a nuestra llave agregar su elemento
 print(mi_diccionario)
+
+
