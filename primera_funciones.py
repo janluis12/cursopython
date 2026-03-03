@@ -59,8 +59,26 @@
 #print(midiccionario.values())# con este metodo podremos saber lo que contienen dentro las llaves.
 #print(midiccionario)
 
-mi_lista = ["santo domingo","chile","francia"] #aqui declaramos una tupla que seran utilizadas como elementos para nuestras claves de nuestro diccionario
-mi_diccionario = {mi_lista[0]:"republica dominicana",mi_lista[1]:"region metropolitana"} #aqui declaramos nuestro diccionario junto con nuestra tupla, iniciando en nuestro elemento 0, para asi entonces a nuestra llave agregar su elemento
-print(mi_diccionario)
+#mi_lista = ["santo domingo","chile","francia"] #aqui declaramos una tupla que seran utilizadas como elementos para nuestras claves de nuestro diccionario
+#mi_diccionario = {mi_lista[0]:"republica dominicana",mi_lista[1]:"region metropolitana"} #aqui declaramos nuestro diccionario junto con nuestra tupla, iniciando en nuestro elemento 0, para asi entonces a nuestra llave agregar su elemento
+#print(mi_diccionario)
+
+#condicionales if
+print("ingresa tu nombre mamañema")
+nombre = input("nombre")
+edad = int(input("edad"))
+def usuario(nombre,edad):
+	
+	if (nombre =="jan" and edad>=18):
+		
+		print("cumple es mayor")
+		print("programa finalizado papito")
+		return
+	else:
+		print("maldito gey eres mayor")
+		return
+print(usuario(nombre,edad))
+
+
 
 
