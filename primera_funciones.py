@@ -133,3 +133,98 @@
 #
 #print("edad del aspirante " + str(edad) + " años")
 
+""" def cajero():
+    print("Cajero de chile")
+    saldo = 1000
+    respuesta = input("deseas ingresar al cajero: ")
+
+    while respuesta == "si":
+        rut_usuario = input("Por favor ingresa tu rut: ")
+        contraseña_usuario = input("Por favor ingresa tu pin: ")
+
+        if rut_usuario == "25014207-2" and contraseña_usuario == "2902":
+            print("Session iniciada correctamente")
+
+            opcion = "0"
+
+            while opcion != "4":
+                print("escoja una de las siguientes operaciones")
+                print("1-Consultar saldo")
+                print("2-depositar saldo")
+                print("3-retirar saldo")
+                print("4-salir")
+
+                opcion = input("por favor selecciona una opcion: ")
+
+                if opcion == "1":
+                    print("tu saldo es igual a:", saldo)
+
+                elif opcion == "2":
+                    nuevomonto = int(input("ingresa tu deposito: "))
+                    saldo += nuevomonto
+                    print("tu nuevo saldo es:", saldo)
+               
+                elif opcion =="3":
+                    nuevomonto = int(input("ingresa el saldo a retirar"))
+                    if nuevomonto>saldo or nuevomonto<=0:
+                        print("no se puede retirar")
+                    else:
+                        saldo -=nuevomonto
+                        print("retiro realizado con exito, saldo disponible ", saldo)
+                       
+                       
+                   
+
+        else:
+            print("Datos incorrectos vuelva a intentarlo")
+
+        respuesta = input("deseas ingresar nuevamente al cajero: ")
+    print("programa terminado con exito")
+
+cajero()
+
+ """
+
+
+
+
+
+
+
+
+
+""" print("bienvenidos a la calculadora")
+
+respuesta_usuario=input("deseas ingresar a la calculadora")
+
+numero1=int(input("ingresa un numero"))
+numero2=int(input("ingresa un numero"))
+
+if respuesta_usuario=="si":
+    opciones_usuario=input("por favor escoge una de las siguientes operaciones a realizar suma,resta,multiplicacion,division").lower()
+   
+   
+    if opciones_usuario=="suma":
+       
+        resultado= numero1+numero2
+        print("resultado es ", resultado)
+       
+    elif opciones_usuario =="resta":
+       
+        resultado= numero1-numero2
+        print("resultado es ", resultado)
+       
+    elif opciones_usuario =="multiplicacion":
+       
+        resultado= numero1*numero2
+        print("resultado es ", resultado)
+       
+    elif opciones_usuario =="division":
+       
+        resultado= numero1/numero2
+        print("resultado es ", resultado)
+    else:
+        print("opcion no valida, vuelva a intentarlo nuevamente.")
+   
+else:
+    print("programa terminado") """
