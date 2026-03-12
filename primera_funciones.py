@@ -64,21 +64,72 @@
 #print(mi_diccionario)
 
 #condicionales if
-print("ingresa tu nombre mamañema")
-nombre = input("nombre")
-edad = int(input("edad"))
-def usuario(nombre,edad):
+#print("ingresa tu nombre mamañema")
+#nombre = input("nombre")
+#edad = int(input("edad"))
+#def usuario(nombre,edad):
 	
-	if (nombre =="jan" and edad>=18):
+	#if (nombre =="jan" and edad>=18):
 		
-		print("cumple es mayor")
-		print("programa finalizado papito")
-		return
-	else:
-		print("maldito gey eres mayor")
-		return
-print(usuario(nombre,edad))
+		#print("cumple es mayor")
+		#print("programa finalizado papito")
+		#return
+	#else:
+		#print("maldito gey eres mayor")
+		#return
+#print(usuario(nombre,edad))
 
 
+#-------------------contatenacion de operadores-------------#
 
+#salario_presidente = int(input("ingresa el salario el presidente"))
+#print("salario presidente " + str(salario_presidente))
+#salario_director = int(input("ingresa el salario el director"))
+#print("salario director " + str(salario_director))
+#salario_jefe_area = int(input("ingresa el salario del jefe de area"))
+#print("salario jefea area " + str(salario_jefe_area))
+#salario_administrativo = int(input("ingresa el salario miserable del administrativo"))
+#print("salario administrativo " + str(salario_administrativo))
+#
+#if (salario_presidente>salario_director>salario_jefe_area>salario_administrativo):
+#	print("todo esta bien en la empresa")
+#else:
+#	print("algo no esta funcionando en esta empresa")
+
+#bucles for determinados
+#for i in [1,2,3,4,5,6,7,8,9]:
+	#print("buenas", i)
+
+#email = False
+#
+#for i in "janluis@gmail.com":
+#	
+#	if( i=="@" or i=="."):
+#
+#		email=True
+#if email:
+#	print("cumples")
+#else:
+#	print("no cumples")
+
+#for i in range(5,45,5):
+	#print(f"valor de la variable {i}") #tipo de concatenacion
+
+
+#bucle while
+#i=1
+
+#while i<=10:
+	#print("ejecucion programa" + str(i))
+	#i=i+1
+#print("termino la ejecucion")
+
+#edad = int(input("ingresa tu  edad por favor"))
+#
+#while edad<5 or edad>100:
+#
+#	print("has introducido una edad negativa, vuelve a intentarlo")
+#	edad = int(input("ingresa tu  edad por favor"))
+#
+#print("edad del aspirante " + str(edad) + " años")
 
